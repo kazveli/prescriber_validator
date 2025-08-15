@@ -1,4 +1,5 @@
 import argparse
+from src.core.validator import Validator
 
 def main():
     # Configurando argumentos com argparse
@@ -12,7 +13,8 @@ def main():
     args = parser.parse_args()
     
     # Constrói e chama o validador 
-    ## criar o objeto validador e executar o metodo .run() dele.
-
+    validador = Validator(args.file, cr_type=args.cr_type, auto=args.auto_validate, headless=args.headless)
+    validador.run()
+    
 if __name__ == "__main__":
     main()

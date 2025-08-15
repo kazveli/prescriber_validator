@@ -2,3 +2,11 @@
 [INFO](test_class.py) 2025-08-15 16:06:14,939: Browser criado com sucesso
 [INFO](test_class.py) 2025-08-15 16:06:14,939: Scraper criado com sucesso
 [CRITICAL](test_class.py) 2025-08-15 16:06:19,670: Acesso ao site concedido
+[INFO](validator.py) 2025-08-15 17:55:20,710: Carregando dados da planilha excel.
+[INFO](validator.py) 2025-08-15 17:55:37,823: Carregando dados da planilha excel.
+[INFO](validator.py) 2025-08-15 17:55:38,613: 5137 registros encontrados.
+[INFO](validator.py) 2025-08-15 17:57:02,271: Carregando dados da planilha excel.
+[INFO](validator.py) 2025-08-15 17:57:02,589: 5137 registros encontrados.
+[INFO](validator.py) 2025-08-15 17:57:02,589: Modo automático. Será utilizado todos os scrapers.
+[INFO](validator.py) 2025-08-15 17:57:02,590: Iniciando validação.
+[INFO](validator.py) 2025-08-15 17:57:02,594: Processo finalizado.

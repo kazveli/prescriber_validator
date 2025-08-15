@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class Driver4Browser:
-    def __init__(self, headless=True, timeout=4):
+    def __init__(self, headless=True):
         options = uc.ChromeOptions()
         if headless: # Verifica se o modo não supervisionado está ativo
             options.add_argument('--headless')
