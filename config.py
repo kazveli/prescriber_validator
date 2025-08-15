@@ -1,1 +1,3 @@
 DEFAULT_INPUT_PATH="doc/prescribers.xlsx"
+TIMEOUT_1=4
+TIMEOUT_2=2
