@@ -1,0 +1,4 @@
+[INFO](test_class.py) 2025-08-15 16:06:13,604: Iniciando..
+[INFO](test_class.py) 2025-08-15 16:06:14,939: Browser criado com sucesso
+[INFO](test_class.py) 2025-08-15 16:06:14,939: Scraper criado com sucesso
+[CRITICAL](test_class.py) 2025-08-15 16:06:19,670: Acesso ao site concedido
