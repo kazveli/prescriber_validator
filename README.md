@@ -1,5 +1,5 @@
 # Validador de Prescritores 🩺🔍
-Validador automatizados de registros profissionais de saúde (CRM, CRN, CRP, etc) a partir de uma planilha base.
+Validador automatizado de registros profissionais de saúde (CRM, CRN, CRP, etc) a partir de uma planilha base.
 
 ## Funcionalidades
 1. Scraping inteligente pelo Selenium e Requests
@@ -27,6 +27,16 @@ pip install -r requirements.txt
 
 ## Utilização
 NotImplementedError
+
+## Próximos passos
+scraper base (abstrato)
+scraper crm < scraper base
+factory para escolher qual scraper sera utilizado
+loader para carregar e salvar a planilha
+driver para gerir o navegador para os scrapers
+validator para orquestrar tudo
+main para porta de entrada (ainda desfuncinal)
+
 
 ## Contribuindo
 NotImplementedError

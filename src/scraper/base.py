@@ -8,3 +8,11 @@ class ScraperBase(ABC):
     @abstractmethod
     def to_site(self):
         pass
+
+    @abstractmethod
+    def search_prescriber(self, crm):
+        pass
+
+    @abstractmethod
+    def verify_activity(self):
+        pass

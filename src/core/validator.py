@@ -15,7 +15,7 @@ class Validator:
 
     def load_data(self):
         log.info("Carregando dados da planilha excel.")
-        self.data = DataLoader(self.filepath).load()
+        self.data = DataLoader(self.filepath,skiprows=1).load()
         log.info(f"{len(self.data)} registros encontrados.")
 
     def select_scraper(self):
@@ -30,6 +30,7 @@ class Validator:
     def validate(self):
         log.info('Iniciando validação.')
         for row in self.data.itertuples(index=False):
+            
             pass
 
     def run(self):

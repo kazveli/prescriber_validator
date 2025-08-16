@@ -11,8 +11,12 @@ class Driver4Browser:
         self.control.maximize_window() # Ocupar todo o monitor e ampliar a visão do site
 
     # Aplicando funções de espera para o driver
-    def visibility_element(self, select_time, element: tuple):
+    def visibility_element(self, select_time, element: tuple, driver=None):
+        if driver:
+            return WebDriverWait(driver, select_time).until(EC.visibility_of_element_located(element))
         return WebDriverWait(self.control, select_time).until(EC.visibility_of_element_located(element))
     
-    def element_clickable(self, select_time, element: tuple):
+    def element_clickable(self, select_time, element: tuple, driver=None):
+        if driver:
+            return WebDriverWait(driver, select_time).until(EC.element_to_be_clickable(element))
         return WebDriverWait(self.control, select_time).until(EC.element_to_be_clickable(element))
